@@ -1,11 +1,16 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="128" height="128" rx="24" fill="url(#gradient1)"/>
   <defs>
     <linearGradient id="gradient1" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#667eea"/>
       <stop offset="100%" stop-color="#764ba2"/>
     </linearGradient>
+    <linearGradient id="gradient2" x1="58" y1="54" x2="76" y2="74" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f093fb"/>
+      <stop offset="100%" stop-color="#f5576c"/>
+    </linearGradient>
   </defs>
+  
+  <rect width="128" height="128" rx="24" fill="url(#gradient1)"/>
   
   <!-- Film strip -->
   <rect x="20" y="35" width="88" height="58" rx="4" fill="white" opacity="0.9"/>
@@ -27,11 +32,4 @@
   <!-- Play button -->
   <circle cx="64" cy="64" r="16" fill="white" opacity="0.95"/>
   <path d="M58 54 L58 74 L76 64 Z" fill="url(#gradient2)"/>
-  
-  <defs>
-    <linearGradient id="gradient2" x1="58" y1="54" x2="76" y2="74" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#f093fb"/>
-      <stop offset="100%" stop-color="#f5576c"/>
-    </linearGradient>
-  </defs>
 </svg>
