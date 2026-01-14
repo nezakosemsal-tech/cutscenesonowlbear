@@ -1,0 +1,8 @@
+# Configuração Jekyll para GitHub Pages
+include:
+  - manifest.json
+  - background.js
+  - player.html
+  - index.html
+  - style.css
+  - icon.svg
