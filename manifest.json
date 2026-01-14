@@ -1,14 +1,14 @@
 {
   "name": "Cutscene Video Player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 1,
   "description": "Play fullscreen cutscene videos in Owlbear Rodeo",
   "author": "Saimon",
-  "icon": "icon.svg",
+  "icon": "https://nezakosemsal-tech.github.io/cutscenesonowlbear/icon.svg",
   "action": {
     "title": "Cutscene Player",
-    "icon": "icon.svg",
-    "popover": "index.html",
+    "icon": "https://nezakosemsal-tech.github.io/cutscenesonowlbear/icon.svg",
+    "popover": "https://nezakosemsal-tech.github.io/cutscenesonowlbear/index.html",
     "height": 600,
     "width": 400
   }
