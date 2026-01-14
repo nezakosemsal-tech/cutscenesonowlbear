@@ -3,7 +3,7 @@
  * Gerencia sincronização de cutscenes via room metadata
  */
 
-import OBR from "@owlbear-rodeo/sdk";
+import OBR from "https://cdn.jsdelivr.net/npm/@owlbear-rodeo/sdk@2.0.0/dist/index.min.js";
 
 // Estado da extensão
 const CUTSCENE_METADATA_ID = "com.cutscene.player/state";
@@ -321,7 +321,7 @@ function openVideoPlayer(videoBlob, cutsceneState) {
     // Criar modal do OBR
     OBR.modal.open({
         id: "cutscene-player",
-        url: "/player.html",
+        url: "player.html",
         height: window.innerHeight,
         width: window.innerWidth,
         hidePaper: true
